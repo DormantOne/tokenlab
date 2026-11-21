@@ -1,17 +1,17 @@
 # Next-Token Lab
 
-Ten pages: `index.html` (start page, the machine and the notebook), one page per module from `m1-access.html` to `m8-backend.html`, and the attention deep dive, `m2b-attention.html`. Each file is self-contained: no outside scripts, fonts or trackers, and no network calls except Module 8's backend, which sends only when a student presses its button.
+Eleven pages: `index.html` (start page, the machine and the notebook), `quick.html` (Quick learn, the minimum), one page per module from `m1-access.html` to `m8-backend.html`, and the attention deep dive, `m2b-attention.html`. Each file is self-contained: no outside scripts, fonts or trackers, and no network calls except Module 8's backend, which sends only when a student presses its button.
 
 ## Put it online with GitHub Pages
 1. Sign in at github.com and create a new public repository, for example `next-token-lab`.
-2. On the repository page, choose "uploading an existing file", drag in all ten `.html` files, and commit.
+2. On the repository page, choose "uploading an existing file", drag in all eleven `.html` files, and commit.
 3. Open Settings, then Pages. Under "Build and deployment", choose "Deploy from a branch", pick the `main` branch and the `/ (root)` folder, and save.
 4. After a minute or two the site is live at `https://YOUR-USERNAME.github.io/next-token-lab/`. Share that address.
 
 Keep all the pages in the same folder of the same site: that is what lets them share one notebook.
 
 ## Settings
-Each page's script begins with the same settings block (search for `instructorEmail`). If you change a setting, change it in all ten files (a find-and-replace across the folder does it).
+Each page's script begins with the same settings block (search for `instructorEmail`). If you change a setting, change it in all eleven files (a find-and-replace across the folder does it).
 - `instructorEmail`: where "Send progress" addresses reports. Currently aes95@pitt.edu.
 - `teachback`: where teach-back prompts go. Currently ChatGPT. UPMC devices redirect ChatGPT to Copilot; switch both the name and the address if your students work there.
 - `mailLimit`: how long the emailed summary can be.
